@@ -2,7 +2,7 @@
 layout: default
 ---
 ## ⚡️🐛👮📺🖊
-# [git3moji]({{ site.url }}) <small>v0.1.0</small>
+<h1><a href="./">git3moji</a> <small>v0.1.0</small></h1>
 
 *[git-three-**moh**-jee]*  is a short **emoji standard for expressive commit messages**.
 
@@ -58,7 +58,7 @@ This project was inspired by [gitmoji](https://gitmoji.carloscuesta.me/), a proj
 ### License
 
 <a href="http://creativecommons.org/publicdomain/zero/1.0/">
-  <img src="{{ site.url }}/images/cc-zero.png" width="88">
+  <img src="./images/cc-zero.png" width="88">
 </a>
 
 To the extent possible under law, authors have waived all copyright and related or neighboring rights to *git3moji*.
