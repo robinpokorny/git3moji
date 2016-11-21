@@ -1,8 +1,11 @@
 ---
 layout: default
 ---
-## ⚡️🐛👮📺🖊
-<h1><a href="./">git3moji</a> <small>v0.1.0</small></h1>
+## {% for item in site.data.git3moji.list %}{{item.emoji}}{% endfor %}
+<h1>
+<a href="./">git3moji</a>
+<small>v{{site.data.git3moji.version}}</small>
+</h1>
 
 *[git-three-**moh**-jee]*  is a short **emoji standard for expressive commit messages**.
 
@@ -34,11 +37,8 @@ a new idea. There are many long creative lists of recommended commit emojis. The
 
 Emoji| Code    | Description
 :---:|:---:    |:---
-⚡️   | `:zap:` | New features
-🐛   | `:bug:` | Bugs and fixes
-👮   | `:cop:` | Tests and linting
-📺   | `:tv:`  | CI and configuration
-🖊   | `:pen:` | Documentation
+{% for item in site.data.git3moji.list %}{{item.emoji}} | `{{item.code}}` | {{item.description}}
+{% endfor %}
 
 <!-- @TODO
 ## Usage
