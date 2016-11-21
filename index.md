@@ -14,7 +14,7 @@ layout: default
 <!-- @TODO
 [Introduction](#introduction) –
 [List](#list-of-emojis) –
-[Features](#features) –
+[FAQ](#faq) –
 [About](#about)
 -->
 ---
@@ -39,6 +39,8 @@ Emoji| Code    | Description
 :---:|:---:    |:---
 {% for item in site.data.git3moji.list %}{{item.emoji}} | `{{item.code}}` | {{item.description}}
 {% endfor %}
+
+Get the list in the form of [JSON](https://raw.githubusercontent.com/robinpokorny/git3moji/master/_data/git3moji.json).
 
 <!-- @TODO
 ## Usage
