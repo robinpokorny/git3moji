@@ -7,7 +7,7 @@ layout: default
 <small>v{{site.data.git3moji.version}}</small>
 </h1>
 
-*[git-three-**moh**-jee]*  is a short **emoji standard for expressive commit messages**.
+*[git-three-**moh**-jee]*  is a simple three-letter (or less) **emoji standard for expressive commit messages**.
 
 > *Warning:* Pre-release version. It exists to record the ideas and promote [discussion](https://github.com/robinpokorny/git3moji/issues).
 
