@@ -1,6 +1,6 @@
 {
-  version: "0.1.0",
-  list: [
+  "version": "0.1.0",
+  "list": [
     {
       "emoji":"⚡️",
       "code":":zap:",
