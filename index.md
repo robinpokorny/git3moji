@@ -3,7 +3,7 @@ layout: default
 ---
 ## {% for item in site.data.git3moji.list %}{{item.emoji}}{% endfor %}
 <h1>
-<a href="./">git3moji</a>
+<a href="{{ site.baseurl }}">git3moji</a>
 <small>v{{site.data.git3moji.version}}</small>
 </h1>
 
@@ -60,7 +60,7 @@ This project was inspired by [gitmoji](https://gitmoji.carloscuesta.me/), a proj
 ### License
 
 <a href="http://creativecommons.org/publicdomain/zero/1.0/">
-  <img src="./images/cc-zero.png" width="88">
+  <img src="{{ site.baseurl }}/images/cc-zero.png" width="88">
 </a>
 
 To the extent possible under law, authors have waived all copyright and related or neighboring rights to *git3moji*.
