@@ -1,10 +1,10 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "list": [
     {
       "emoji":"⚡️",
       "code":":zap:",
-      "description":"New features",
+      "description":"Features and primary concerns",
       "name":"zap",
       "unicode":"26A1"
     },
