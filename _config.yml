@@ -5,6 +5,8 @@ baseurl: "https://robinpokorny.github.io/git3moji/"
 
 # Build settings
 markdown: kramdown
+kramdown:
+  auto_ids: true
 exclude: ["README.md"]
 sass:
   style: compressed

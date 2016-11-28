@@ -1,25 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html ⚡>
 <head>
   <meta charset="utf-8">
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <title>{{ site.title }}</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="{{ site.description }}">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ site.title }}</title>
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <link rel="canonical" href="https://robinpokorny.github.io/git3moji/" />
+  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
   <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700|Montserrat:700" rel="stylesheet">
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+  {% comment %}https://www.sitepoint.com/inline-css-in-jekyll/{% endcomment %}
+  {% capture styles %}{% include main.scss %}{% endcapture %}
+  <style amp-custom>
+    {{ styles | scssify }}
+  </style>
   <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js"></script>
 </head>
 <body>
   <!-- Based on Solo theme https://github.com/chibicode/solo -->
   <div class="container">
     {{ content }}
   </div>
-
-  <script>
-    anchors.options = { placement: 'left', visible: 'hover' }
-    anchors.add('h2').remove('.no-anchor')
-  </script>
 </body>
 </html>

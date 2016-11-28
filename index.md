@@ -14,13 +14,13 @@ layout: default
 > *Warning:* Pre-release version. It exists to record the ideas and promote [discussion](https://github.com/robinpokorny/git3moji/issues).
 
 [Introduction](#introduction) –
-[List](#list-of-emojis) –
+[List](#list) –
 [FAQ](#faq) –
 [About](#about)
 
 ---
 
-## Introduction
+{% include headline.html name="Introduction" slug="introduction" %}
 
 Prepend one of the five emojis to describe the intention of your commit.
 
@@ -53,16 +53,16 @@ Which would be displayed as:
 1b74135 ⚡️ Add users endpoint, fixes #27
 ```
 
-## List of emojis
+{% include headline.html name="List of emojis" slug="list" %}
 
 Emoji| Code    | Description
-:---:|:---:    |:---
+---  |---      |---
 {% for item in site.data.git3moji.list %}{{item.emoji}} | `{{item.code}}` | {{item.description}}
 {% endfor %}
 
 Get the list in the form of [JSON](https://raw.githubusercontent.com/robinpokorny/git3moji/master/_data/git3moji.json).
 
-## FAQ
+{% include headline.html name="FAQ" slug="faq" %}
 
 #### Do we need a ‘specification’ for 5 emojis?
 
@@ -94,7 +94,7 @@ In any case it is recommended to include a space (or other delimiter) after the 
 
 #### Something missing? [Ask your question](https://github.com/robinpokorny/git3moji/issues)
 
-## About
+{% include headline.html name="About" slug="about" %}
 The *git3moji* specification is authored by [Robin Pokorny](https://robinpokorny.com/).
 It adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
@@ -105,8 +105,6 @@ This project was inspired by [gitmoji](https://gitmoji.carloscuesta.me/), a proj
 
 ### License
 
-<a href="http://creativecommons.org/publicdomain/zero/1.0/">
-  <img src="{{ site.baseurl }}/images/cc-zero.png" width="88">
-</a>
+<a href="http://creativecommons.org/publicdomain/zero/1.0/"><amp-img src="{{ site.baseurl }}/images/cc-zero.png" alt="CC0" height="31" width="88"></amp-img></a>
 
 To the extent possible under law, authors have waived all copyright and related or neighboring rights to *git3moji*.
