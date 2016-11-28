@@ -159,3 +159,18 @@ pre > code {
   margin: 0 auto;
   padding: 0 1rem;
 }
+
+.anchorjs-link {
+  color: inherit !important;
+  transition: opacity .16s linear;
+}
+
+*:hover > .anchorjs-link {
+  opacity: .5;
+}
+
+*:hover > .anchorjs-link:hover,
+.anchorjs-link:focus {
+  opacity: .8;
+  text-decoration: none !important;
+}

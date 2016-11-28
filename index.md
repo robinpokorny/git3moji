@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-## {% for item in site.data.git3moji.list %}{{item.emoji}}{% endfor %}
+<h2 class="no-anchor">
+{% for item in site.data.git3moji.list %}{{item.emoji}}{% endfor %}
+</h2>
 <h1>
 <a href="{{ site.baseurl }}">git3moji</a>
 <small>v{{site.data.git3moji.version}}</small>
