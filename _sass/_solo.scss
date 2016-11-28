@@ -129,11 +129,15 @@ table {
 td, th {
   padding: .25rem .5rem;
   border: 1px solid #ccc;
+  text-align: center;
 }
 
 // TODO Refactor
 td:first-child {
   font-size: 2em;
+}
+td:last-child {
+  text-align: left;
 }
 
 pre, code {
