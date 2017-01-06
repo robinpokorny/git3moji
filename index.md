@@ -105,6 +105,8 @@ This project was inspired by [gitmoji](https://gitmoji.carloscuesta.me/), a proj
 
 ### License
 
-<a href="http://creativecommons.org/publicdomain/zero/1.0/"><amp-img src="{{ site.baseurl }}/images/cc-zero.png" alt="CC0" height="31" width="88"></amp-img></a>
-
 To the extent possible under law, authors have waived all copyright and related or neighboring rights to *git3moji*.
+
+<center>
+  <a href="http://creativecommons.org/publicdomain/zero/1.0/"><amp-img src="{{ site.baseurl }}/images/cc-zero.png" alt="CC0" height="31" width="88"></amp-img></a>
+</center>
