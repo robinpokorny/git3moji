@@ -2,7 +2,7 @@
 layout: default
 ---
 <h2 class="no-anchor">
-{% for item in site.data.git3moji.list %}{{item.emoji}}{% endfor %}
+  <amp-img src="{{ site.baseurl }}/images/git3moji-apple-small.png" alt="{% for item in site.data.git3moji.list %}{{item.emoji}}{% endfor %}" height="34" width="150"></amp-img>
 </h2>
 <h1>
 <a href="{{ site.baseurl }}">git3moji</a>
