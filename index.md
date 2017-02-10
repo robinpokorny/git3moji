@@ -30,9 +30,9 @@ This is
 a new idea. There are many long creative lists of recommended commit emojis. The problem is that “long” and “creative” isn’t good for the real world. Without compliance to some sort of standard with strict limits, emojis are useless in bigger teams. This project aims at providing such a lightweight set.
 
 ### Features
-* **At the first sight** you can recognise purpose of a commit.
+* **At first sight**, you can recognise the purpose of a commit.
 * **Three-letter (or less) codes** are easy to remember and quick to write. No more 📈 (`:chart_with_upwards_trend:`). This is where the `3` in the name comes from.
-* **Small set of emojis** prevents time-consuming search for “the best fit”. Every team member can learn them by heart or peak at a credit card-sized cheat sheet.
+* ** A small set of emojis** prevents the time-consuming search for “the best fit”. Every team member can learn them by heart or peak at a credit card-sized cheat sheet.
 
 ### How to use
 The selected emoji must be at the very beginning of the commit message.
@@ -71,22 +71,22 @@ It should also serve as a starting place for developers contributing to an adher
 
 Giving a bit of formal style should simplify the adoption and speed up the learning process. A shared specification has a higher chance of describing edge cases.
 
-The actual number of emojis in the spec is somewhat irrelevant—fewer being a feature in this case, the same way as [SemVer](http://semver.org/) is not just ‘3 numbers’.
+The actual number of emojis in the spec is somewhat irrelevant—fewer being a feature, in this case, the same way as [SemVer](http://semver.org/) is not just ‘3 numbers’.
 
 #### What if no emoji on the list suits my need? What if more emojis describe the commit?
 
-As the number of emojis to choose from is deliberately low this scenario is probable. Please think again what is the main change in your commit, which files are mostly affected. Also consider splitting the commit into more smaller commits. If you still feel unsure, `:zap:` is likely one with the most general use.
+As the number of emojis to choose from is deliberately low, this scenario is probable. Please think again what is the main change in your commit, which files are mostly affected. Also, consider splitting the commit into more smaller commits. If you still feel unsure, `:zap:` is likely one with the most general use.
 
-It is tempting to introduce a new emoji. Please restrain to do so and keep the system simple and coherent.
+Introducing a new emoji is tempting. Please restrain to do so and keep the system simple and coherent.
 If you truly believe there is a use case for extending the list, please [start a discussion](https://github.com/robinpokorny/git3moji/issues/).
 
 #### Can I have more emojis in the commit message?
 
-Of course! The remainder of the commit message is beyond the scope of this standard. You might want to introduce a team-specific rules about it. Adding more meaningful emojis can be beneficial.
+Of course! The remainder of the commit message is beyond the scope of this standard. You might want to introduce team-specific rules about it. Adding more meaningful emojis can be beneficial.
 
-You should be careful and not overwhelm readers with too many emojis. That would be confusing, which is exactly what we want to avoid. Similary emojis from this specification should not appear outside the beginning of the message.
+You should be careful and not overwhelm readers with too many emojis. That would be confusing, which is exactly what we want to avoid. Similarly, emojis from this specification should not appear outside the beginning of the message.
 
-In any case it is recommended to include a space (or other delimiter) after the emoji from the list. This helps visually distinguish its role.
+In any case, it is recommended to include a space (or another delimiter) after the emoji from the list. This helps visually distinguish its role.
 
 #### What git hosts support emojis?
 
@@ -98,7 +98,7 @@ In any case it is recommended to include a space (or other delimiter) after the 
 The *git3moji* specification is authored by [Robin Pokorny](https://robinpokorny.com/).
 It adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-If you’d like to leave feedback, please [open an issue](https://github.com/robinpokorny/git3moji/issues).
+If you would like to leave feedback, please [open an issue](https://github.com/robinpokorny/git3moji/issues).
 
 ### Attribution
 This project was inspired by [gitmoji](https://gitmoji.carloscuesta.me/), a project by [Carlos Cuesta](https://carloscuesta.me/), which felt overwhelming.
