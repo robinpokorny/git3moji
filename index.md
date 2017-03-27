@@ -32,7 +32,7 @@ a new idea. There are many long creative lists of recommended commit emojis. The
 ### Features
 * **At first sight**, you can recognise the purpose of a commit.
 * **Three-letter (or less) codes** are easy to remember and quick to write. No more 📈 (`:chart_with_upwards_trend:`). This is where the `3` in the name comes from.
-* ** A small set of emojis** prevents the time-consuming search for “the best fit”. Every team member can learn them by heart or peak at a credit card-sized cheat sheet.
+* **A small set of emojis** prevents the time-consuming search for “the best fit”. Every team member can learn them by heart or peak at a credit card-sized cheat sheet.
 
 ### How to use
 The selected emoji must be at the very beginning of the commit message.
