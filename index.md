@@ -2,7 +2,8 @@
 layout: default
 ---
 <h2 class="no-anchor">
-  <amp-img src="{{ site.baseurl }}/images/git3moji-apple-small.png" alt="{% for item in site.data.git3moji.list %}{{item.emoji}}{% endfor %}" height="34" width="150"></amp-img>
+{% for item in site.data.git3moji.list %}
+<amp-img src="{{ site.baseurl }}/images/{{item.name}}.png" alt="{{item.emoji}} - {{item.code}}" height="32" width="32"></amp-img>{% endfor %}
 </h2>
 <h1>
 <a href="{{ site.baseurl }}">git3moji</a>
@@ -106,6 +107,8 @@ This project was inspired by [gitmoji](https://gitmoji.carloscuesta.me/), a proj
 ### License
 
 To the extent possible under law, authors have waived all copyright and related or neighboring rights to *git3moji*.
+
+Emoji character artwork and copyright belong to their respective creators.
 
 <center>
   <a href="http://creativecommons.org/publicdomain/zero/1.0/"><amp-img src="{{ site.baseurl }}/images/cc-zero.png" alt="CC0" height="31" width="88"></amp-img></a>

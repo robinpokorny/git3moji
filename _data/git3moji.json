@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0",
+  "version": "0.3.0",
   "list": [
     {
       "emoji":"⚡️",
@@ -30,11 +30,11 @@
       "unicode":"1F4FA"
     },
     {
-      "emoji":"🖊",
-      "code":":pen:",
+      "emoji":"🔤",
+      "code":":abc:",
       "description":"Documentation",
-      "name":"pen",
-      "unicode":"1F58A"
+      "name":"abc",
+      "unicode":"1F524"
     }
   ]
 }
