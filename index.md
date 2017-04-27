@@ -91,7 +91,7 @@ In any case, it is recommended to include a space (or another delimiter) after t
 
 #### What git hosts support emojis?
 
-[GitHub](https://github.com/), [BitBucket](https://bitbucket.org/)<sup>\[[#5](https://github.com/robinpokorny/git3moji/issues/5)\]</sup>, and [GitLab](https://about.gitlab.com/) display shortcodes in commit messages as emojis.
+[GitHub](https://github.com/), [BitBucket](https://bitbucket.org/), and [GitLab](https://about.gitlab.com/) display shortcodes in commit messages as emojis.
 
 #### Something missing? [Ask your question](https://github.com/robinpokorny/git3moji/issues)
 

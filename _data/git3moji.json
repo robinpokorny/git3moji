@@ -16,18 +16,18 @@
       "unicode":"1F41B"
     },
     {
-      "emoji":"👮",
-      "code":":cop:",
-      "description":"Tests and linting",
-      "name":"cop",
-      "unicode":"1F46E"
-    },
-    {
       "emoji":"📺",
       "code":":tv:",
       "description":"CI and configuration",
       "name":"tv",
       "unicode":"1F4FA"
+    },
+    {
+      "emoji":"👮",
+      "code":":cop:",
+      "description":"Tests and linting",
+      "name":"cop",
+      "unicode":"1F46E"
     },
     {
       "emoji":"🔤",
