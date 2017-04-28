@@ -1,14 +1,7 @@
 ---
 layout: default
 ---
-<h2 class="no-anchor">
-{% for item in site.data.git3moji.list %}
-<amp-img src="{{ site.baseurl }}/images/{{item.name}}.png" alt="{{item.emoji}} - {{item.code}}" height="32" width="32"></amp-img>{% endfor %}
-</h2>
-<h1>
-<a href="{{ site.baseurl }}">git3moji</a>
-<small>v{{site.data.git3moji.version}}</small>
-</h1>
+# [git3moji](https://robinpokorny.github.io/git3moji/) <small>v0.3.0</small>
 
 *[git-three-**moh**-jee]*  is a simple three-letter (or less) **emoji standard for expressive commit messages**.
 
@@ -21,7 +14,7 @@ layout: default
 
 ---
 
-{% include headline.html name="Introduction" slug="introduction" %}
+## Introduction
 
 Prepend one of the five emojis to describe the intention of your commit.
 
@@ -54,16 +47,19 @@ Which would be displayed as:
 1b74135 ⚡️ Add users endpoint, fixes #27
 ```
 
-{% include headline.html name="List of emojis" slug="list" %}
+## List
 
 Emoji| Code    | Description
 ---  |---      |---
-{% for item in site.data.git3moji.list %}{{item.emoji}} | `{{item.code}}` | {{item.description}}
-{% endfor %}
+⚡️ | `:zap:` | Features and primary concerns
+🐛 | `:bug:` | Bugs and fixes
+📺 | `:tv:`  | CI and configuration
+👮 | `:cop:` | Tests and linting
+🔤 | `:abc:` | Documentation
 
 Get the list in the form of [JSON](https://raw.githubusercontent.com/robinpokorny/git3moji/master/_data/git3moji.json).
 
-{% include headline.html name="FAQ" slug="faq" %}
+## FAQ
 
 #### Do we need a ‘specification’ for 5 emojis?
 
@@ -95,7 +91,7 @@ In any case, it is recommended to include a space (or another delimiter) after t
 
 #### Something missing? [Ask your question](https://github.com/robinpokorny/git3moji/issues)
 
-{% include headline.html name="About" slug="about" %}
+## About
 The *git3moji* specification is authored by [Robin Pokorny](https://robinpokorny.com/).
 It adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
@@ -111,5 +107,7 @@ To the extent possible under law, authors have waived all copyright and related 
 Emoji character artwork and copyright belong to their respective creators.
 
 <center>
-  <a href="http://creativecommons.org/publicdomain/zero/1.0/"><amp-img src="{{ site.baseurl }}/images/cc-zero.png" alt="CC0" height="31" width="88"></amp-img></a>
+  <a href="http://creativecommons.org/publicdomain/zero/1.0/">
+    <amp-img src="https://robinpokorny.github.io/git3moji/images/cc-zero.png" alt="CC0" height="31" width="88"></amp-img>
+  </a>
 </center>

@@ -21,6 +21,16 @@
 <body>
   <!-- Based on Solo theme https://github.com/chibicode/solo -->
   <div class="container">
+    <h2>
+    {% for item in site.data.git3moji.list %}
+      <amp-img
+        src="{{ site.baseurl }}/images/{{item.name}}.png"
+        alt="{{item.emoji}} - {{item.code}}"
+        height="32" width="32">
+      </amp-img>
+    {% endfor %}
+    </h2>
+
     {{ content }}
   </div>
 </body>

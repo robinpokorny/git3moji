@@ -163,32 +163,3 @@ pre > code {
   margin: 5rem auto 8rem;
   padding: 0 1rem;
 }
-
-.anchorjs-link {
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  font-stretch: normal;
-  font-size: 1em;
-  line-height: inherit;
-  position: absolute;
-  margin-left: -1em;
-  padding-right: 0.5em;
-  opacity: 0;
-  color: inherit;
-  transition: opacity .16s linear;
-
-  &:after {
-    content: attr(data-anchorjs-icon);
-  }
-}
-
-*:hover > .anchorjs-link {
-  opacity: .4;
-}
-
-*:hover > .anchorjs-link:hover,
-.anchorjs-link:focus {
-  opacity: .7;
-  text-decoration: none;
-}
