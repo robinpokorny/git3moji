@@ -1,5 +1,4 @@
 ---
-layout: default
 ---
 # [git3moji](https://robinpokorny.github.io/git3moji/) <sub><sup><sub>v0.3.0</sub></sup></sub>
 
@@ -7,6 +6,7 @@ layout: default
 
 > *Warning:* Pre-release version. It exists to record the ideas and promote [discussion](https://github.com/robinpokorny/git3moji/issues).
 
+[Summary](#summary) –
 [Introduction](#introduction) –
 [List](#list) –
 [FAQ](#faq) –
@@ -14,9 +14,18 @@ layout: default
 
 ---
 
-## Introduction
+## Summary
 
-Prepend one of the five emojis to describe the intention of your commit.
+Prepend one of the five emojis to describe the intention of your git commit.
+
+ * `:zap:` ⚡️ – Features and primary concerns
+ * `:bug:` 🐛 – Bugs and fixes
+ * `:tv:` &nbsp;📺 – CI and configuration
+ * `:cop:` 👮 – Tests and linting
+ * `:abc:` 🔤 – Documentation
+
+## Introduction
+Many teams and projects have very precise rules over how the git commit messages can be formatted. They benefit from messages that are easy to follow when looking through the project history. Usually, the message might include type, scope, subject, and other. To describe the type of a commit *git3moji* suggests using certain emojis.
 
 This is
 [certainly](https://gitmoji.carloscuesta.me/)

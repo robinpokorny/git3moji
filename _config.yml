@@ -3,6 +3,13 @@ title: git3moji — A simple three-letter (or less) emoji standard for expressiv
 description: A simple three-letter (or less) emoji standard for expressive commit messages
 baseurl: /git3moji
 
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
 # Build settings
 markdown: kramdown
 kramdown:
