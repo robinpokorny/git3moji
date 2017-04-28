@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# [git3moji](https://robinpokorny.github.io/git3moji/) <small>v0.3.0</small>
+# [git3moji](https://robinpokorny.github.io/git3moji/) <sub><sup><sub>v0.3.0</sub></sup></sub>
 
 *[git-three-**moh**-jee]*  is a simple three-letter (or less) **emoji standard for expressive commit messages**.
 
