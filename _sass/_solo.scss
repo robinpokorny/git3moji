@@ -9,14 +9,8 @@ html {
 }
 
 body {
-  margin: 2rem 0 5rem;
-  color: #333;
-}
-
-@media (min-width: 30rem) {
-  body {
-    margin-top: 5rem;
-  }
+  color: #2B303A;
+  background: #FBFAFB;
 }
 
 a {
@@ -162,4 +156,10 @@ pre > code {
   max-width: 30rem;
   margin: 5rem auto 8rem;
   padding: 0 1rem;
+}
+
+@media (min-width: 55rem) {
+  .container {
+    margin-left: calc(40vw - 15rem);
+  }
 }
