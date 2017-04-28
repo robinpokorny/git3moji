@@ -1,4 +1,5 @@
 ---
+permalink: /
 ---
 # [git3moji](https://robinpokorny.github.io/git3moji/) <sub><sup><sub>v0.3.0</sub></sup></sub>
 
