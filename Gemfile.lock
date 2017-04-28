@@ -195,6 +195,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (= 134)
+  jekyll-readme-index
   json
 
 BUNDLED WITH
