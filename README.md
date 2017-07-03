@@ -1,7 +1,7 @@
 ---
 permalink: /
 ---
-# [git3moji](https://robinpokorny.github.io/git3moji/) <sub><sup><sub>v0.3.0</sub></sup></sub>
+# [git3moji](https://robinpokorny.github.io/git3moji/) <sub><sup><sub>v0.3.1</sub></sup></sub>
 
 *[git-three-**moh**-jee]*  is a simple three-letter (or less) **emoji standard for expressive commit messages**.
 
@@ -98,6 +98,19 @@ In any case, it is recommended to include a space (or another delimiter) after t
 #### What git hosts support emojis?
 
 [GitHub](https://github.com/), [BitBucket](https://bitbucket.org/), and [GitLab](https://about.gitlab.com/) display shortcodes in commit messages as emojis.
+
+#### Is there a readme badge?
+
+Sure. If you use git3moji in your project, you can include this (or any other) badge in your readme to point people to this specification for more information.
+
+<amp-img
+  src="https://img.shields.io/badge/git3moji-%E2%9A%A1%EF%B8%8F%F0%9F%90%9B%F0%9F%93%BA%F0%9F%91%AE%F0%9F%94%A4-fffad8.svg?style=flat-square"
+  alt="git3moji" width="120" height="20">
+</amp-img>
+
+```md
+[![git3moji](https://img.shields.io/badge/git3moji-%E2%9A%A1%EF%B8%8F%F0%9F%90%9B%F0%9F%93%BA%F0%9F%91%AE%F0%9F%94%A4-fffad8.svg?style=flat-square)](https://robinpokorny.github.io/git3moji/)
+```
 
 #### Something missing? [Ask your question](https://github.com/robinpokorny/git3moji/issues)
 
