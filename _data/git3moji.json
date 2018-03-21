@@ -1,40 +1,40 @@
 {
-  "version": "0.3.0",
-  "list": [
-    {
-      "emoji":"⚡️",
-      "code":":zap:",
-      "description":"Features and primary concerns",
-      "name":"zap",
-      "unicode":"26A1"
-    },
-    {
-      "emoji":"🐛",
-      "code":":bug:",
-      "description":"Bugs and fixes",
-      "name":"bug",
-      "unicode":"1F41B"
-    },
-    {
-      "emoji":"📺",
-      "code":":tv:",
-      "description":"CI and configuration",
-      "name":"tv",
-      "unicode":"1F4FA"
-    },
-    {
-      "emoji":"👮",
-      "code":":cop:",
-      "description":"Tests and linting",
-      "name":"cop",
-      "unicode":"1F46E"
-    },
-    {
-      "emoji":"🔤",
-      "code":":abc:",
-      "description":"Documentation",
-      "name":"abc",
-      "unicode":"1F524"
-    }
-  ]
+    "version": "0.4.0",
+    "list": [
+        {
+            "emoji": "⚡️",
+            "code": ":zap:",
+            "description": "Features and primary concerns",
+            "name": "zap",
+            "unicode": "26A1"
+        },
+        {
+            "emoji": "🐛",
+            "code": ":bug:",
+            "description": "Bugs and fixes",
+            "name": "bug",
+            "unicode": "1F41B"
+        },
+        {
+            "emoji": "📺",
+            "code": ":tv:",
+            "description": "CI, tooling, and configuration",
+            "name": "tv",
+            "unicode": "1F4FA"
+        },
+        {
+            "emoji": "👮",
+            "code": ":cop:",
+            "description": "Tests and linting",
+            "name": "cop",
+            "unicode": "1F46E"
+        },
+        {
+            "emoji": "🔤",
+            "code": ":abc:",
+            "description": "Documentation",
+            "name": "abc",
+            "unicode": "1F524"
+        }
+    ]
 }
