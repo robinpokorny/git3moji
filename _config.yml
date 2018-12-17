@@ -16,5 +16,5 @@ kramdown:
   auto_ids: true
 sass:
   style: compressed
-gems:
+plugins:
   - jekyll-readme-index
