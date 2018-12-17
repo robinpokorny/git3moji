@@ -68,7 +68,7 @@ Which would be displayed as:
 | ⚡️    | `:zap:` | Features and primary concerns  |
 | 🐛    | `:bug:` | Bugs and fixes                 |
 | 📺    | `:tv:`  | CI, tooling, and configuration |
-| 👮    | `:cop:` | Tests, and linting             |
+| 👮    | `:cop:` | Tests and linting             |
 | 🔤    | `:abc:` | Documentation                  |
 
 Get the list in the form of [JSON](https://raw.githubusercontent.com/robinpokorny/git3moji/master/_data/git3moji.json).

@@ -6,4 +6,8 @@ versions = JSON.parse(open('https://pages.github.com/versions.json').read)
 
 gem 'github-pages', versions['github-pages']
 gem "jekyll-readme-index"
-gem "nokogiri", ">= 1.8.1"
+
+# Security related version fixes
+gem "jekyll", ">= 3.6.3"
+gem "nokogiri", ">= 1.8.2"
+gem "ffi", ">= 1.9.24"
