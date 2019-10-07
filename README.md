@@ -24,7 +24,7 @@ Prepend one of the five emojis to describe the intention of your git commit.
 *   `:bug:` 🐛 – Bugs and fixes
 *   `:tv:` &nbsp;📺 – CI, tooling, and configuration
 *   `:cop:` 👮 – Tests and linting
-*   `:abc:` 🔤 – Documentation
+*   `:dog:` 🐶 – Documentation 
 
 ## Introduction
 
@@ -69,7 +69,7 @@ Which would be displayed as:
 | 🐛    | `:bug:` | Bugs and fixes                 |
 | 📺    | `:tv:`  | CI, tooling, and configuration |
 | 👮    | `:cop:` | Tests and linting             |
-| 🔤    | `:abc:` | Documentation                  |
+| 🐶    | `:dog:` | Documentation                  |
 
 Get the list in the form of [JSON](https://raw.githubusercontent.com/robinpokorny/git3moji/master/_data/git3moji.json).
 
