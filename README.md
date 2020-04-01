@@ -1,12 +1,8 @@
----
-permalink: /
----
+# [git3moji](https://robinpokorny.github.io/git3moji/) <sub><sup><sub>v1.0.0</sub></sup></sub>
 
-# [git3moji](https://robinpokorny.github.io/git3moji/) <sub><sup><sub>v0.4.0</sub></sup></sub>
+<!-- <sub><sup><sub> ≈ <small> -->
 
-_[git-three-**moh**-jee]_ is a simple three-letter (or less) **emoji standard for expressive commit messages**.
-
-> _Warning:_ Pre-release version. It exists to record the ideas and promote [discussion](https://github.com/robinpokorny/git3moji/issues).
+> _[git-three-**moh**-jee]_ is a simple three-letter (or less) **emoji standard for expressive commit messages**.
 
 [Summary](#summary) –
 [Introduction](#introduction) –
@@ -20,11 +16,11 @@ _[git-three-**moh**-jee]_ is a simple three-letter (or less) **emoji standard fo
 
 Prepend one of the five emojis to describe the intention of your git commit.
 
-*   `:zap:` ⚡️ – Features and primary concerns
-*   `:bug:` 🐛 – Bugs and fixes
-*   `:tv:` &nbsp;📺 – CI, tooling, and configuration
-*   `:cop:` 👮 – Tests and linting
-*   `:abc:` 🔤 – Documentation
+- `:zap:` ⚡️ – Features and primary concerns
+- `:bug:` 🐛 – Bugs and fixes
+- `:tv:` &nbsp;📺 – CI, tooling, and configuration
+- `:cop:` 👮 – Tests and linting
+- `:abc:` 🔤 – Documentation
 
 ## Introduction
 
@@ -37,9 +33,9 @@ a new idea. There are many long creative lists of recommended commit emojis. The
 
 ### Features
 
-*   **At first sight**, you can recognise the purpose of a commit.
-*   **Three-letter (or less) codes** are easy to remember and quick to write. No more 📈 (`:chart_with_upwards_trend:`). This is where the `3` in the name comes from.
-*   **A small set of emojis** prevents the time-consuming search for “the best fit”. Every team member can learn them by heart or peak at a credit card-sized cheat sheet.
+- **At first sight**, you can recognise the purpose of a commit.
+- **Three-letter (or less) codes** are easy to remember and quick to write. No more 📈 (`:chart_with_upwards_trend:`). This is where the `3` in the name comes from.
+- **A small set of emojis** prevents the time-consuming search for “the best fit”. Every team member can learn them by heart or peak at a credit card-sized cheat sheet.
 
 ### How to use
 
@@ -65,10 +61,10 @@ Which would be displayed as:
 
 | Emoji | Code    | Description                    |
 | ----- | ------- | ------------------------------ |
-| ⚡️    | `:zap:` | Features and primary concerns  |
+| ⚡️   | `:zap:` | Features and primary concerns  |
 | 🐛    | `:bug:` | Bugs and fixes                 |
 | 📺    | `:tv:`  | CI, tooling, and configuration |
-| 👮    | `:cop:` | Tests and linting             |
+| 👮    | `:cop:` | Tests and linting              |
 | 🔤    | `:abc:` | Documentation                  |
 
 Get the list in the form of [JSON](https://raw.githubusercontent.com/robinpokorny/git3moji/master/_data/git3moji.json).

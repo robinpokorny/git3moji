@@ -9,5 +9,5 @@ gem "jekyll-readme-index"
 
 # Security related version fixes
 gem "jekyll", ">= 3.6.3"
-gem "nokogiri", ">= 1.8.2"
+gem "nokogiri", ">= 1.10.8"
 gem "ffi", ">= 1.9.24"
